@@ -2,7 +2,7 @@ import jobs from "../jobs.json";
 import JobListing from "./JobListing";
 
 const JobListings = ({ isHome = false }) => {
-  const jobListings = isHome ? jobs.slice(0, 3) : jobs;
+   const jobListings = isHome ? jobs.slice(0, 3) : jobs;
 
   return (
     <section className="bg-blue-50 px-4 py-10">
